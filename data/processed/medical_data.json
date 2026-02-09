@@ -1,0 +1,702 @@
+{
+  "entities": [
+    {
+      "name": "2型糖尿病",
+      "type": "DISEASE",
+      "aliases": [
+        "T2DM",
+        "Type 2 Diabetes",
+        "成人糖尿病"
+      ],
+      "icd10": "E11",
+      "definition": "以胰岛素抵抗和相对胰岛素缺乏为特征的慢性代谢性疾病",
+      "category": "内分泌代谢疾病",
+      "risk_factors": [
+        "肥胖",
+        "家族史",
+        "不良饮食习惯",
+        "缺乏运动"
+      ],
+      "complications": [
+        "糖尿病肾病",
+        "糖尿病视网膜病变",
+        "心血管疾病"
+      ]
+    },
+    {
+      "name": "高血压",
+      "type": "DISEASE",
+      "aliases": [
+        "Hypertension",
+        "HTN"
+      ],
+      "icd10": "I10",
+      "definition": "以体循环动脉血压持续升高为主要特征的慢性疾病",
+      "category": "心血管疾病",
+      "risk_factors": [
+        "高盐饮食",
+        "肥胖",
+        "吸烟",
+        "饮酒",
+        "精神紧张"
+      ],
+      "complications": [
+        "脑卒中",
+        "冠心病",
+        "心力衰竭",
+        "肾功能不全"
+      ]
+    },
+    {
+      "name": "冠心病",
+      "type": "DISEASE",
+      "aliases": [
+        "Coronary Heart Disease",
+        "CHD",
+        "冠状动脉粥样硬化性心脏病"
+      ],
+      "icd10": "I25",
+      "definition": "冠状动脉粥样硬化导致心肌缺血缺氧的心脏病",
+      "category": "心血管疾病",
+      "risk_factors": [
+        "高血压",
+        "高血脂",
+        "糖尿病",
+        "吸烟",
+        "肥胖"
+      ],
+      "complications": [
+        "心肌梗死",
+        "心力衰竭",
+        "心律失常"
+      ]
+    },
+    {
+      "name": "慢性阻塞性肺疾病",
+      "type": "DISEASE",
+      "aliases": [
+        "COPD",
+        "慢阻肺"
+      ],
+      "icd10": "J44",
+      "definition": "以持续气流受限为特征的慢性肺部疾病",
+      "category": "呼吸系统疾病",
+      "risk_factors": [
+        "吸烟",
+        "空气污染",
+        "职业粉尘",
+        "遗传因素"
+      ],
+      "complications": [
+        "肺心病",
+        "呼吸衰竭",
+        "自发性气胸"
+      ]
+    },
+    {
+      "name": "脑卒中",
+      "type": "DISEASE",
+      "aliases": [
+        "Stroke",
+        "中风",
+        "脑血管意外"
+      ],
+      "icd10": "I64",
+      "definition": "急性脑血管循环障碍导致的脑功能损害",
+      "category": "神经系统疾病",
+      "risk_factors": [
+        "高血压",
+        "房颤",
+        "糖尿病",
+        "高血脂",
+        "吸烟"
+      ],
+      "complications": [
+        "偏瘫",
+        "失语",
+        "吞咽困难",
+        "认知障碍"
+      ]
+    },
+    {
+      "name": "慢性肾病",
+      "type": "DISEASE",
+      "aliases": [
+        "CKD",
+        "Chronic Kidney Disease",
+        "慢性肾功能不全"
+      ],
+      "icd10": "N18",
+      "definition": "肾脏结构或功能异常持续超过3个月",
+      "category": "泌尿系统疾病",
+      "risk_factors": [
+        "糖尿病",
+        "高血压",
+        "肾小球肾炎",
+        "多囊肾"
+      ],
+      "complications": [
+        "肾衰竭",
+        "心血管疾病",
+        "贫血",
+        "骨病"
+      ]
+    },
+    {
+      "name": "二甲双胍",
+      "type": "DRUG",
+      "category": "双胍类降糖药",
+      "indications": [
+        "2型糖尿病"
+      ],
+      "contraindications": [
+        "严重肾功能不全",
+        "酸中毒",
+        "严重感染"
+      ],
+      "side_effects": [
+        "胃肠道反应",
+        "维生素B12缺乏",
+        "乳酸酸中毒(罕见)"
+      ]
+    },
+    {
+      "name": "氨氯地平",
+      "type": "DRUG",
+      "category": "钙通道阻滞剂",
+      "indications": [
+        "高血压",
+        "心绞痛"
+      ],
+      "contraindications": [
+        "严重低血压",
+        "心源性休克"
+      ],
+      "side_effects": [
+        "踝部水肿",
+        "头痛",
+        "面部潮红"
+      ]
+    },
+    {
+      "name": "阿司匹林",
+      "type": "DRUG",
+      "category": "抗血小板药",
+      "indications": [
+        "冠心病",
+        "脑卒中预防",
+        "心绞痛"
+      ],
+      "contraindications": [
+        "活动性出血",
+        "血友病",
+        "阿司匹林哮喘"
+      ],
+      "side_effects": [
+        "胃肠道出血",
+        "过敏反应",
+        "耳鸣"
+      ]
+    },
+    {
+      "name": "沙美特罗",
+      "type": "DRUG",
+      "category": "长效β2受体激动剂",
+      "indications": [
+        "COPD",
+        "哮喘"
+      ],
+      "contraindications": [
+        "对成分过敏"
+      ],
+      "side_effects": [
+        "震颤",
+        "心悸",
+        "低钾血症"
+      ]
+    },
+    {
+      "name": "阿托伐他汀",
+      "type": "DRUG",
+      "category": "他汀类降脂药",
+      "indications": [
+        "高胆固醇血症",
+        "冠心病二级预防"
+      ],
+      "contraindications": [
+        "活动性肝病",
+        "妊娠期"
+      ],
+      "side_effects": [
+        "肌肉痛",
+        "肝酶升高",
+        "糖尿病风险增加"
+      ]
+    },
+    {
+      "name": "多饮",
+      "type": "SYMPTOM"
+    },
+    {
+      "name": "多尿",
+      "type": "SYMPTOM"
+    },
+    {
+      "name": "体重下降",
+      "type": "SYMPTOM"
+    },
+    {
+      "name": "乏力",
+      "type": "SYMPTOM"
+    },
+    {
+      "name": "头痛",
+      "type": "SYMPTOM"
+    },
+    {
+      "name": "头晕",
+      "type": "SYMPTOM"
+    },
+    {
+      "name": "胸痛",
+      "type": "SYMPTOM"
+    },
+    {
+      "name": "胸闷",
+      "type": "SYMPTOM"
+    },
+    {
+      "name": "呼吸困难",
+      "type": "SYMPTOM"
+    },
+    {
+      "name": "慢性咳嗽",
+      "type": "SYMPTOM"
+    },
+    {
+      "name": "咳痰",
+      "type": "SYMPTOM"
+    },
+    {
+      "name": "偏瘫",
+      "type": "SYMPTOM"
+    },
+    {
+      "name": "言语不清",
+      "type": "SYMPTOM"
+    },
+    {
+      "name": "水肿",
+      "type": "SYMPTOM"
+    },
+    {
+      "name": "蛋白尿",
+      "type": "SYMPTOM"
+    },
+    {
+      "name": "空腹血糖",
+      "type": "EXAMINATION",
+      "normal_range": "3.9-6.1 mmol/L"
+    },
+    {
+      "name": "糖化血红蛋白",
+      "type": "EXAMINATION",
+      "normal_range": "<6.5%"
+    },
+    {
+      "name": "血压测量",
+      "type": "EXAMINATION",
+      "normal_range": "<140/90 mmHg"
+    },
+    {
+      "name": "心电图",
+      "type": "EXAMINATION"
+    },
+    {
+      "name": "胸部CT",
+      "type": "EXAMINATION"
+    },
+    {
+      "name": "肺功能检查",
+      "type": "EXAMINATION"
+    },
+    {
+      "name": "头颅CT",
+      "type": "EXAMINATION"
+    },
+    {
+      "name": "肾功能检查",
+      "type": "EXAMINATION"
+    },
+    {
+      "name": "尿常规",
+      "type": "EXAMINATION"
+    },
+    {
+      "name": "血脂检查",
+      "type": "EXAMINATION"
+    }
+  ],
+  "relations": [
+    {
+      "head": "2型糖尿病",
+      "head_type": "DISEASE",
+      "relation": "HAS_SYMPTOM",
+      "tail": "多饮",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "2型糖尿病",
+      "head_type": "DISEASE",
+      "relation": "HAS_SYMPTOM",
+      "tail": "多尿",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "2型糖尿病",
+      "head_type": "DISEASE",
+      "relation": "HAS_SYMPTOM",
+      "tail": "体重下降",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "2型糖尿病",
+      "head_type": "DISEASE",
+      "relation": "HAS_SYMPTOM",
+      "tail": "乏力",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "高血压",
+      "head_type": "DISEASE",
+      "relation": "HAS_SYMPTOM",
+      "tail": "头痛",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "高血压",
+      "head_type": "DISEASE",
+      "relation": "HAS_SYMPTOM",
+      "tail": "头晕",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "冠心病",
+      "head_type": "DISEASE",
+      "relation": "HAS_SYMPTOM",
+      "tail": "胸痛",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "冠心病",
+      "head_type": "DISEASE",
+      "relation": "HAS_SYMPTOM",
+      "tail": "胸闷",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "慢性阻塞性肺疾病",
+      "head_type": "DISEASE",
+      "relation": "HAS_SYMPTOM",
+      "tail": "呼吸困难",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "慢性阻塞性肺疾病",
+      "head_type": "DISEASE",
+      "relation": "HAS_SYMPTOM",
+      "tail": "慢性咳嗽",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "慢性阻塞性肺疾病",
+      "head_type": "DISEASE",
+      "relation": "HAS_SYMPTOM",
+      "tail": "咳痰",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "脑卒中",
+      "head_type": "DISEASE",
+      "relation": "HAS_SYMPTOM",
+      "tail": "偏瘫",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "脑卒中",
+      "head_type": "DISEASE",
+      "relation": "HAS_SYMPTOM",
+      "tail": "言语不清",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "慢性肾病",
+      "head_type": "DISEASE",
+      "relation": "HAS_SYMPTOM",
+      "tail": "水肿",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "慢性肾病",
+      "head_type": "DISEASE",
+      "relation": "HAS_SYMPTOM",
+      "tail": "蛋白尿",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "2型糖尿病",
+      "head_type": "DISEASE",
+      "relation": "TREATED_BY",
+      "tail": "二甲双胍",
+      "tail_type": "DRUG",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "2型糖尿病",
+      "head_type": "DISEASE",
+      "relation": "FIRST_LINE",
+      "tail": "二甲双胍",
+      "tail_type": "DRUG",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "高血压",
+      "head_type": "DISEASE",
+      "relation": "TREATED_BY",
+      "tail": "氨氯地平",
+      "tail_type": "DRUG",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "高血压",
+      "head_type": "DISEASE",
+      "relation": "FIRST_LINE",
+      "tail": "氨氯地平",
+      "tail_type": "DRUG",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "冠心病",
+      "head_type": "DISEASE",
+      "relation": "TREATED_BY",
+      "tail": "阿司匹林",
+      "tail_type": "DRUG",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "冠心病",
+      "head_type": "DISEASE",
+      "relation": "FIRST_LINE",
+      "tail": "阿司匹林",
+      "tail_type": "DRUG",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "脑卒中",
+      "head_type": "DISEASE",
+      "relation": "TREATED_BY",
+      "tail": "阿司匹林",
+      "tail_type": "DRUG",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "慢性阻塞性肺疾病",
+      "head_type": "DISEASE",
+      "relation": "TREATED_BY",
+      "tail": "沙美特罗",
+      "tail_type": "DRUG",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "冠心病",
+      "head_type": "DISEASE",
+      "relation": "TREATED_BY",
+      "tail": "阿托伐他汀",
+      "tail_type": "DRUG",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "2型糖尿病",
+      "head_type": "DISEASE",
+      "relation": "DIAGNOSED_BY",
+      "tail": "空腹血糖",
+      "tail_type": "EXAMINATION",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "2型糖尿病",
+      "head_type": "DISEASE",
+      "relation": "DIAGNOSED_BY",
+      "tail": "糖化血红蛋白",
+      "tail_type": "EXAMINATION",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "高血压",
+      "head_type": "DISEASE",
+      "relation": "DIAGNOSED_BY",
+      "tail": "血压测量",
+      "tail_type": "EXAMINATION",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "冠心病",
+      "head_type": "DISEASE",
+      "relation": "DIAGNOSED_BY",
+      "tail": "心电图",
+      "tail_type": "EXAMINATION",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "慢性阻塞性肺疾病",
+      "head_type": "DISEASE",
+      "relation": "DIAGNOSED_BY",
+      "tail": "肺功能检查",
+      "tail_type": "EXAMINATION",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "脑卒中",
+      "head_type": "DISEASE",
+      "relation": "DIAGNOSED_BY",
+      "tail": "头颅CT",
+      "tail_type": "EXAMINATION",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "慢性肾病",
+      "head_type": "DISEASE",
+      "relation": "DIAGNOSED_BY",
+      "tail": "肾功能检查",
+      "tail_type": "EXAMINATION",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "慢性肾病",
+      "head_type": "DISEASE",
+      "relation": "DIAGNOSED_BY",
+      "tail": "尿常规",
+      "tail_type": "EXAMINATION",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "二甲双胍",
+      "head_type": "DRUG",
+      "relation": "CAUSES",
+      "tail": "胃肠道反应",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "阿司匹林",
+      "head_type": "DRUG",
+      "relation": "CAUSES",
+      "tail": "胃肠道出血",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "氨氯地平",
+      "head_type": "DRUG",
+      "relation": "CAUSES",
+      "tail": "踝部水肿",
+      "tail_type": "SYMPTOM",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "2型糖尿病",
+      "head_type": "DISEASE",
+      "relation": "COMPLICATION",
+      "tail": "慢性肾病",
+      "tail_type": "DISEASE",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "2型糖尿病",
+      "head_type": "DISEASE",
+      "relation": "COMPLICATION",
+      "tail": "冠心病",
+      "tail_type": "DISEASE",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "高血压",
+      "head_type": "DISEASE",
+      "relation": "COMPLICATION",
+      "tail": "脑卒中",
+      "tail_type": "DISEASE",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "高血压",
+      "head_type": "DISEASE",
+      "relation": "COMPLICATION",
+      "tail": "冠心病",
+      "tail_type": "DISEASE",
+      "confidence": 0.95,
+      "source": "demo_data"
+    },
+    {
+      "head": "高血压",
+      "head_type": "DISEASE",
+      "relation": "COMPLICATION",
+      "tail": "慢性肾病",
+      "tail_type": "DISEASE",
+      "confidence": 0.95,
+      "source": "demo_data"
+    }
+  ]
+}
